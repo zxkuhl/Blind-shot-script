@@ -28,7 +28,7 @@ local KeyTitle = Instance.new("TextLabel")
 KeyTitle.Size = UDim2.new(1, -40, 0, 50)
 KeyTitle.Position = UDim2.new(0, 20, 0, 15)
 KeyTitle.BackgroundTransparency = 1
-KeyTitle.Text = "🔐Key System"
+KeyTitle.Text = "🔐 Key System"
 KeyTitle.Font = Enum.Font.GothamBold
 KeyTitle.TextSize = 24
 KeyTitle.TextColor3 = Color3.fromRGB(200, 120, 255)
@@ -113,7 +113,7 @@ local CORRECT_KEY = "Jcheeks130"
 SubmitButton.MouseButton1Click:Connect(function()
 	if KeyInput.Text == CORRECT_KEY then
 		ScreenGui:Destroy()
-		loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/zxkuhl/Blind-shot-script/main/Script", true))()"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/zxkuhl/Blind-shot-script/main/Script", true))()
 	end
 end)
 
